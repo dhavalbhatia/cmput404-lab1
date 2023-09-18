@@ -1,6 +1,6 @@
 import requests
 
-URL = "https://www.google.com"
+URL = "https://github.com/dhavalbhatia/cmput404-lab1/blob/main/print_requests.py"
 
-print(requests.get(URL))
-
+request = requests.get(URL)
+print(request.text)
